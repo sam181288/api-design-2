@@ -108,3 +108,8 @@ By designing an API using HATEOAS concepts we bring below advantages
 - It is also a way to self document the APIs, and future proff them because we can modify and change links with affecting the clients
 - By implementing links in Voter and Poll APIs, if a user polls for a vote information, by just looking at the response he will know how to get voter information and also polls informations.
 - Same goes for Voter API, by getting voter information, user can knows how to get polls information as well. As said it improves discoverability and seld documents Voter and Poll API
+
+## References
+1. https://www.mscharhag.com/api-design/hypermedia-rest
+2. https://www.iana.org/assignments/link-relations/link-relations.xhtml
+3. https://stateless.co/hal_specification.html
